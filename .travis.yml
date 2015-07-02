@@ -15,3 +15,5 @@ before_install:
 
 script:
  - "python graphs.py"
+# Use container format for TravisCI to avoid termination due to insufficient resources.
+#sudo: false
